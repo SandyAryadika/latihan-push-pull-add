@@ -12,7 +12,7 @@ const addNoteHandler = (request, h) => {
         title, tags, body, id, createAt, updateAt,
     };
 
-    notes.push(notes);
+    notes.push(newNote);
 
     const isSuccess = notes.filter((note) => note.id === id).length > 0;
 
