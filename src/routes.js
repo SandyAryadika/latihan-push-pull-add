@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler } = require('./handler');
 
 const routes = [
@@ -27,5 +28,5 @@ const routes = [
     handler: deleteNoteByIdHandler,
   },
 ];
- 
+
 module.exports = routes;
